@@ -1,0 +1,55 @@
+@import "variables.scss";
+
+body {
+   background-color: $color_fondo;
+   font-family: $fonts;
+   padding: 5%;
+        
+    .container_header {
+        h1 {
+            color: $color_tittle;
+        }
+
+        h2 {
+            color: $color_subtittle;
+        }
+     }
+    
+    .container_main {
+        p {
+            color: $color_p;
+        }
+    }
+
+    .container_list {
+        color: $color_caps;
+        text-shadow: 2px 2px 8px #a2b2df;
+
+        h3 {
+            color: $color_subtittle;
+        }
+
+        h4 {
+           color: $color_subtittle;
+        }
+
+        p {
+            color:$color_notes;
+        }
+
+        li {
+            color: $color_list;
+        }
+    } 
+    
+    .container_footer {
+        padding-top: 3%;
+        border-top: 1px solid white;
+        p {
+            text-align: center;
+            color: $color_p;
+        }
+    }
+}
+
+

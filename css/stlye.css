@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  font-family: "Red Rose", cursive;
+  padding: 5%; }
+  body .container_header h1 {
+    color: #a877c8; }
+  body .container_header h2 {
+    color: #a2da5a; }
+  body .container_main p {
+    color: white; }
+  body .container_list {
+    color: #f7bb2a;
+    text-shadow: 2px 2px 8px #a2b2df; }
+    body .container_list h3 {
+      color: #a2da5a; }
+    body .container_list h4 {
+      color: #a2da5a; }
+    body .container_list p {
+      color: #a2b2df; }
+    body .container_list li {
+      color: #a2b2df; }
+  body .container_footer {
+    padding-top: 3%;
+    border-top: 1px solid white; }
+    body .container_footer p {
+      text-align: center;
+      color: white; }
